@@ -9,3 +9,9 @@ main {
     margin: 50px;
     line-height: 1.75em;
 }
+
+.screenshots {
+    width: 75%;
+    display: block;
+    margin: auto;
+}
