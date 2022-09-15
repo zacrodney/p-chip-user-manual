@@ -10,40 +10,41 @@
 
 <body>
     <header>
+        <img id="logo" src="https://p-chip.com/wp-content/uploads/2021/05/p-Chip-Logo@2x.png" alt="p-Chip logo">
         <h1>p-Chip Cloud Web App - User Manual</h1>
-        <nav>
-            <h2>Contents</h2>
-            <ul>
-                <li>Overview</li>
-                <li>Getting Started</li>
-                <li>Settings</li>
-                <li>User Interface Guide</li>
-                <li>List of Functions
-                    <ul>
-                        <li>Dashboard</li>
-                        <li>Users</li>
-                        <li>Licenses</li>
-                        <li>Groups</li>
-                        <li>Products</li>
-                        <li>Tests</li>
-                        <li>Tags</li>
-                        <li>Tag Activities</li>
-                        <li>Error Reports</li>
-                        <li>Organizations (p-Chip Admin Only)</li>
-                        <li>Account Requests (p-Chip Admin Only)</li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
     </header>
+    <nav>
+        <h2>Contents</h2>
+        <ul>
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#gettingstarted">Getting Started</a></li>
+            <li><a href="#settings">Settings</a></li>
+            <li><a href="#ui">User Interface Guide</a></li>
+            <li><a href="#functions">Functions</a>
+                <ul>
+                    <li><a href="#fdashboard">Dashboard</a></li>
+                    <li><a href="#fusers">Users</a></li>
+                    <li><a href="#flicenses">Licenses</a></li>
+                    <li><a href="#fgroups">Groups</a></li>
+                    <li><a href="#fproducts">Products</a></li>
+                    <li><a href="#ftests">Tests</a></li>
+                    <li><a href="#ftags">Tags</a></li>
+                    <li><a href="#ftagactivities">Tag Activities</a></li>
+                    <li><a href="#ferrorreports">Error Reports</a></li>
+                    <li><a href="#forganizations">Organizations (p-Chip Admin Only)</a></li>
+                    <li><a href="#faccountrequests">Account Requests (p-Chip Admin Only)</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
     <main>
-        <section>
+        <section id="overview">
             <h2>Overview</h2>
             <p>The p-Chip Cloud web application is a cloud hosted platform where clients can set-up and manage their
                 organization and access the historical information of all of their products using p-Chip
                 microtransponder technology across the supply chain.</p>
         </section>
-        <section>
+        <section id="gettingstarted">
             <h2>Getting Started</h2>
             <p>This guide will help you as your organizations administrator get up and running quickly to start
                 experiencing the incredible benefits that securing your products with p-Chip microtransponder technology
@@ -81,7 +82,7 @@
                 </ol>
             </article>
         </section>
-        <section>
+        <section id="settings">
             <h2>Settings</h2>
             <img class="screenshots" src="/images/webapp-settings.png" alt="settings form">
             <p>The application settings is where you can control your organizations information. This information is
@@ -99,7 +100,7 @@
                 <li><strong>Service Agreements:</strong> Terms of service for use of the application</li>
             </ul>
         </section>
-        <section>
+        <section id="ui">
             <h2>User Interface Guide</h2>
             <h3>Homepage</h3>
             <img class="screenshots" src="/images/webapp-homepage.png" alt="Homepage">
@@ -143,7 +144,7 @@
                 </li>
             </ol>
         </section>
-        <section>
+        <section id="functions">
             <h2>Functions</h2>
             <p>The p-Chip Cloud web application is designed to give an organization full control and visibility of their
                 supply chain. To achieve this the web portal allows administrators to perform a series of functions that
@@ -164,7 +165,7 @@
                 <li>Organizations (p-Chip Admin Only)</li>
                 <li>Account Requests (p-Chip Admin Only)</li>
             </ul>
-            <article>
+            <article id="fdashboard">
                 <h2>Dashboard</h2>
                 <img class="screenshots" src="images/webapp-function-dashboard.png" alt="p-Chip Cloud Dashboard">
                 <p>The p-Chip Cloud <strong>Dashboard</strong> is the command center for managing your global supply
@@ -189,7 +190,7 @@
                         users with active licenses across your organizations plotted over time.</li>
                 </ol>
             </article>
-            <article>
+            <article id="fusers">
                 <h2>Users</h2>
                 <img class="screenshots" src="/images/webapp-function-userlist.png" alt="User List">
                 <p>The users section allows you to add web application users to your organization. These users have full
@@ -269,7 +270,7 @@
                     <li>Select <strong>Deactivate</strong></li>
                 </ol>
             </article>
-            <article>
+            <article id="flicenses">
                 <h2>Licenses</h2>
                 <img class="screenshots" src="/images/webapp-function-licenselist.png" alt="License List">
                 <p>Licenses are used by the p-Chip Cloud Desktop Application to authorize your organizations devices to
@@ -344,7 +345,7 @@
                     <li>Select <strong>Back</strong> to return to the <strong>License List</strong></li>
                 </ol>
             </article>
-            <article>
+            <article id="fgroups">
                 <h2>Groups</h2>
                 <img class="screenshots" src="images/webapp-function-grouplist.png" alt="Groups">
                 <p>Groups are how data is segregated with an organization. Groups can be a phystical location, a
@@ -451,7 +452,7 @@
                     <li>Select <strong>Back</strong> to return to the <strong>Group List</strong></li>
                 </ol>
             </article>
-            <article>
+            <article id="fproducts">
                 <h2>Products</h2>
                 <img class="screenshots" src="images/webapp-function-productlist.png" alt="Products List">
                 <p>Products are physical goods or items that your organization wants to track across the supply chain or
@@ -528,7 +529,7 @@
                     <li>Select <strong>Back</strong> to return to the <strong>Product List</strong></li>
                 </ol>
             </article>
-            <article>
+            <article id="ftests">
                 <h2>Tests</h2>
                 <img class="screenshots" src="images/webapp-function-testlist.png" alt="Tests List">
                 <p>Test are any physical inspection, measurement or other text information that is important to associate with a product and eventually make available to your supply chain partners. These can include quality control tests, inventory stock takes, information for consumers and much more.</p>
@@ -582,123 +583,131 @@
                     <li>Select <strong>Back</strong> to return to the <strong>Test List</strong></li>
                 </ol>
             </article>
-            <article>
+            <article id="ftags">
                 <h2>Tags</h2>
-                <img src="#" alt="Tags">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    labore
-                    et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                    dolore eu
-                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.</p>
-                <h3>Search Tags List</h3>
+                <img class="screenshots" src="images/webapp-function-taglist.png" alt="Tags List">
+                <p>Tags are p-Chip microtransponders that have been applied to products or items by your organization using the p-Chip Cloud Desktop App. When a tag is created it is immediately visible in the cloud along with metadata and logging information that helps your organization identify potential security threats immediately.</p>
+                <h3>Components</h3>
                 <ol>
-                    <li>-</li>
-                    <li>-</li>
-                    <li>-</li>
-                    <li>-</li>
+                    <li>Your organization <strong>List of Tags</strong> are accessible via the main navigation menu</li>
+                    <li>Find specific items quickly by filtering on:
+                        <ul>
+                            <li>p-Chip serial number</li>
+                            <li>Internal serial number or unique ID</li>
+                            <li>Created Location, Date/Time or Group</li>
+                            <li>Last Scanned License, Location, Date/Time or Group</li>
+                            <li>Tag Status</li>
+                        </ul>
+                    </li>
+                    <li>View a full list of Tags created by your organization</li>
                 </ol>
                 <h3>View Tag Details</h3>
+                <img class="screenshots" src="/images/webapp-function-tagdetails.png" alt="Tag Details View">
                 <ol>
-                    <li>-</li>
-                    <li>-</li>
-                    <li>-</li>
-                    <li>-</li>
+                    <li>Select a Tag from the <strong>Tag List</strong></li>
+                    <li>Available Product Information:
+                        <ul>
+                            <li>p-Chip ID</li>
+                            <li>External ID</li>
+                            <li>Product Name</li>
+                            <li>Product Description</li>
+                            <li>Product Quality Status</li>
+                            <li>Production Date</li>
+                            <li>Production Location</li>
+                            <li>Created Date</li>
+                            <li>Created Group</li>
+                            <li>Created Location</li>
+                            <li>Last Scanned Date</li>
+                            <li>Last Scanned Group</li>
+                            <li>Last Scanned Location</li>
+                            <li>Original Equipment Manufacturer (OEM)</li>
+                        </ul>
+                    </li>
+                    <li>The following lists show information about the test in your organization:
+                        <ul>
+                            <li><strong>Tag Activity:</strong> All scans and activities performed on the tag</li>
+                        </ul>
+                    </li>
+                    <li>Select <strong>Back</strong> to return to the <strong>Tags List</strong></li>
                 </ol>
                 <h3>Deactivating a Tag</h3>
+                <p>The p-Chip status, a value of Active or Inactive, is used to control the tracking status of the item. If an item is lost, stolen or is not fit for use or sale, the tag can be deactivated which notifies the manufacturing and supply chain that the attached item is no longer authenticated by your organization. To deactivate a tag:</p>
                 <ol>
-                    <li>-</li>
-                    <li>-</li>
-                    <li>-</li>
-                    <li>-</li>
+                    <li>Select a Tag from the <strong>Tag List</strong></li>
+                    <li>Select <strong>Deactivate</strong> in the upper right hand corner</li>
+                    <li>Select <strong>Back</strong> to return to the <strong>Tag List</strong></li>
                 </ol>
             </article>
-            <article>
+            <article id="ftagactivities">
                 <h2>Tag Activities</h2>
-                <img src="#" alt="Tags">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    labore
-                    et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                    dolore eu
-                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.</p>
-                <h3>Search Tags Activity List</h3>
-                <ol>
-                    <li>-</li>
-                    <li>-</li>
-                    <li>-</li>
-                    <li>-</li>
-                </ol>
+                <img class="screenshots" src="/images/webapp-function-tagactivity.png" alt="Tag Activity List View">
+                <p>Tag activities are specific events that are recorded in the p-Chip Cloud and made accessible across your organization. There are currently 4 activities currently supported. These include:</p>
+                <ul>
+                    <li><strong>Add:</strong> A tag is added to your organization</li>
+                    <li><strong>Product Add:</strong> A product is added to an existing tag in your organization. A single p-Chip can be "converted" into multiple products during it's life cycle, just as goods may change from raw materials to intermediates to finished goods. Each transformation of a good is captured with the <strong>Product Add</strong> event.</li>
+                    <li><strong>Test:</strong> A test is performed on a tag.</li>
+                    <li><strong>Search: </strong> A tag is searched by a user within your organization.</li> 
+                </ul>
+                <p>During each of these activities, metadata on time, location, device, equipment and user information is collected and stored improve visibility across your global supply chain.</p>
+                    <h3>Components</h3>
+                    <ol>
+                        <li>Your organization <strong>List of Tag Activities</strong> are accessible via the main navigation menu</li>
+                        <li>Find specific items quickly by filtering on:
+                            <ul>
+                                <li>p-Chip serial number</li>
+                                <li>External ID</li>
+                                <li>Product</li>
+                                <li>License</li>
+                                <li>Group</li>
+                                <li>Type</li>
+                            </ul>
+                        </li>
+                        <li>Export a full list of your organizations <strong>Tag Activities</strong> in csv format</li>
+                        <li>View a full list of <strong>Tag Activities</strong> created by your organization</li>
+                    </ol>
             </article>
-            <article>
+            <article id="ferrorreports">
                 <h2>Error Reports</h2>
-                <img src="#" alt="Error Reports">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    labore
-                    et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                    dolore eu
-                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.</p>
+                <p>Error reports are user generated reports across your organization. These reports are created in the p-Chp Cloud Desktop App and are designed to allow quick and easy communication between your organizations administrators and field users. Here users can report equipment issues, product issues and more.</p>
             </article>
-            <article>
+            <article id="forganizations">
                 <h2>Organizations (p-Chip Admin Only)</h2>
-                <img src="#" alt="Organizations">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    labore
-                    et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                    dolore eu
-                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.</p>
+                <p>Organizations are companies or businesses that are using the p-Chip Cloud platform for securing their supply chain. All organizations data is segmented so that their data is secure and can only be accessed by administrator permissions detailed in the <a href="#fusers">Users</a> and <a href="#flicenses">License</a> sections.</p>
                 <h3>Create an Organizations</h3>
+                <p>When an client has been approved for an account, the first step is to create a new organization. This organization is where all future activities will be perforemd by the organizations administrators. To create a new organization, follow the steps below:</p>
                 <ol>
-                    <li>-</li>
-                    <li>-</li>
-                    <li>-</li>
-                    <li>-</li>
+                    <li>Navigate to the <strong>Organization</strong> tab</li>
+                    <li>Select <strong>+Add Organization</strong> in the upper right hand corner</li>
+                    <li>Complete the <strong>Create Organization</strong> form</li>
+                    <li>Select <strong>Create</strong></li>
                 </ol>
                 <h3>Remove Organization Access</h3>
                 <ol>
-                    <li>-</li>
-                    <li>-</li>
-                    <li>-</li>
-                    <li>-</li>
+                    <li>Select an <strong>Organization</strong> from the list of organizations</li>
+                    <li>Select <strong>Deactivate</strong></li>
                 </ol>
             </article>
-            <article>
+            <article id="faccountrequests">
                 <h2>Account Requests (p-Chip Admin Only)</h2>
-                <img src="#" alt="Account Requests">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    labore
-                    et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                    dolore eu
-                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.</p>
+                <p>Prospective customers may request account access using the <a href="#requestaccount">Request Account</a> function. When new requests are received, these will be reviewed internally. If approved, you can approve the account request by following the below steps.</p>
                 <h3>Approve Account Requests</h3>
                 <ol>
-                    <li>-</li>
-                    <li>-</li>
-                    <li>-</li>
-                    <li>-</li>
+                    <li>Navigate to the <strong>Account Requests</strong> tab</li>
+                    <li>Select the relevant account request from the list</li>
+                    <li>Select <strong>Approve</strong> to approve the request</li>
                 </ol>
             </article>
         </section>
     </main>
-    <footer></footer>
+    <footer>
+        <img id="logo-footer" src="https://p-chip.com/wp-content/uploads/2021/05/p-Chip-Logo@2x.png" alt="p-Chip logo">
+        <div class="footer">
+            <h2>p-Chip Corporation</h2>
+            <h3>500 W. Madison St., Suite 1000</h3>
+            <h3>Chicago, IL 60661</h3>
+            <h3>312.668.9660</h3>
+        </div>
+    </footer>
 </body>
 
 </html>

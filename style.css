@@ -1,17 +1,64 @@
 html{
     font-family: Helvetica, Arial, sans-serif;
-    margin: 10px;
+    margin: 0;
     font-size: 16px;
     width: 100%;
 }
 
+body {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: 1fr;
+    gap: 20px;
+}
+
+header {
+    grid-column: 1 / 13;
+}
+
 main {
-    margin: 50px;
+    line-height: 1.75em;
+    grid-column: 4 / 13;
+    width: 90%;
+}
+
+nav {
+    grid-column: 1 / 4;
     line-height: 1.75em;
 }
 
 .screenshots {
-    width: 75%;
+    width: 90%;
     display: block;
     margin: auto;
+}
+
+#logo {
+    width: 75px;
+    display: inline-flex;
+}
+
+h1 {
+    display: inline-flex;
+    font-size: 1.4rem;
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #5792CD;
+}
+
+footer {
+    grid-column: 1 / 13;
+    margin: 0;
+}
+
+#logo-footer {
+    width: 30%;
+    display: inline-flex;
+}
+
+.footer {
+    display: inline-block;
 }
