@@ -23,11 +23,11 @@
             <li><a href="#winappfunctions">List of Functions</a>
                 <ul>
                     <li><a href="#fcreaterecords">Create Records</a></li>
-                    <li>Edit Records</li>
-                    <li>Add Products</li>
-                    <li>Add Tests</li>
-                    <li>Search Records</li>
-                    <li>Error Reports</li>
+                    <li><a href="#feditrecords">Edit Records</a></li>
+                    <li><a href="#faddproducts">Add Products</a></li>
+                    <li><a href="#faddtests">Add Tests</a></li>
+                    <li><a href="#fsearch">Search Records</a></li>
+                    <li><a href="#ferrorreports">Error Reports</a></li>
                 </ul>
             </li>
         </ul>
@@ -155,7 +155,7 @@
                                 p-Chip, the wand will be turned off.</li>
                             <li><strong>Multiple:</strong> Turn on the wand and scan multiple records. The device will
                                 automatically shut off after the amount of time you indicate in the <a
-                                    href="uisettings">Settings</a> option <strong>Auto Scanner Shutdown
+                                    href="#uisettings">Settings</a> option <strong>Auto Scanner Shutdown
                                     (seconds)</strong></li>
                             <li><strong>Always On:</strong> Turn on the wand and scan multiple records. To turn off the
                                 device, press the <strong>Stop</strong> button.</li>
@@ -186,7 +186,7 @@
                                 p-Chip, the wand will be turned off.</li>
                             <li><strong>Multiple:</strong> Turn on the wand and scan multiple records. The device will
                                 automatically shut off after the amount of time you indicate in the <a
-                                    href="uisettings">Settings</a> option <strong>Auto Scanner Shutdown
+                                    href="#uisettings">Settings</a> option <strong>Auto Scanner Shutdown
                                     (seconds)</strong></li>
                             <li><strong>Always On:</strong> Turn on the wand and scan multiple records. To turn off the
                                 device, press the <strong>Stop</strong> button.</li>
@@ -215,7 +215,7 @@
                                 p-Chip, the wand will be turned off.</li>
                             <li><strong>Multiple:</strong> Turn on the wand and scan multiple records. The device will
                                 automatically shut off after the amount of time you indicate in the <a
-                                    href="uisettings">Settings</a> option <strong>Auto Scanner Shutdown
+                                    href="#uisettings">Settings</a> option <strong>Auto Scanner Shutdown
                                     (seconds)</strong></li>
                             <li><strong>Always On:</strong> Turn on the wand and scan multiple records. To turn off the
                                 device, press the <strong>Stop</strong> button.</li>
@@ -234,7 +234,8 @@
             <article>
                 <h3>Search Window</h3>
                 <img src="#" alt="-">
-                <p>The <strong>Search</strong> window is where you can search for records that have been created by or added to your group.</p>
+                <p>The <strong>Search</strong> window is where you can search for records that have been created by or
+                    added to your group.</p>
                 <h4>Components</h4>
                 <ol>
                     <li><strong>Scanning Settings:</strong> Select from the available options:
@@ -243,7 +244,7 @@
                                 p-Chip, the wand will be turned off.</li>
                             <li><strong>Multiple:</strong> Turn on the wand and scan multiple records. The device will
                                 automatically shut off after the amount of time you indicate in the <a
-                                    href="uisettings">Settings</a> option <strong>Auto Scanner Shutdown
+                                    href="#uisettings">Settings</a> option <strong>Auto Scanner Shutdown
                                     (seconds)</strong></li>
                             <li><strong>Always On:</strong> Turn on the wand and scan multiple records. To turn off the
                                 device, press the <strong>Stop</strong> button.</li>
@@ -258,43 +259,57 @@
                     <li><strong>Row Count:</strong> Counts the number of rows the in the <strong>Session List</strong>.
                     </li>
                 </ol>
-            </article>
+            </article id="uirecorddetail">
             <h3>Record Details Window</h3>
             <img src="#" alt="record details window">
-            <p>The <strong>Record Details</strong> window displays all recorded information about a tag and related product, as well as the <strong>Production, Test and Search</strong> activities performed by all users within your organization.</p>
+            <p>The <strong>Record Details</strong> window displays all recorded information about a tag and related
+                product, as well as the <strong>Production, Test and Search</strong> activities performed by all users
+                within your organization.</p>
             <h4>Components</h4>
             <ol>
                 <li><strong>Tag Details:</strong> Summary of the p-Chip tag inlcuding the following information:
-                <ol>
-                    <li>p-Chip ID: 9 digit numeric code embeded in p-Chip microtransponder</li>
-                    <li>Tag Status: Microtransponder tag operational status maintained by client admninistrator</li>
-                    <li>External ID: Serialized inventory item or batch identifier</li>
-                    <li>Age: # of days since microtransponder tag was <strong>added or created</strong> in the system</li>
-                    <li>Tests: # of tests performed on the related product</li>
-                    <li>Product Code: Product Identification Code defined by client administrator</li>
-                    <li>Product Name: Product name defined by client administrator</li>
-                    <li>Product Description: General description of the product. Defined by client administrator</li>
-                    <li>Product Status: Client defined goods status defined by client administrator</li>
-                    <li>Product Age: # of days since the current product was assigned to the microtransponder tag</li>
-                    <li>Production Date (UTC): Date and time that the current product was assigned to the microtransponder tag</li>
-                    <li>Production Location: Geographical data collected when the current product was assigned to the microtransponder tag</li>
-                    <li>Last Scan Date (UTC): The last date that the tag was modified, tested or searched by the current group</li>
-                    <li>Last Scan Location: Geographical data collected when the tag was last scanned by a member of the current group</li>
-                    <li>Current Group: The group that is assigned as the current owner of the tag.</li>
-                </ol></li>
+                    <ol>
+                        <li>p-Chip ID: 9 digit numeric code embeded in p-Chip microtransponder</li>
+                        <li>Tag Status: Microtransponder tag operational status maintained by client admninistrator</li>
+                        <li>External ID: Serialized inventory item or batch identifier</li>
+                        <li>Age: # of days since microtransponder tag was <strong>added or created</strong> in the
+                            system</li>
+                        <li>Tests: # of tests performed on the related product</li>
+                        <li>Product Code: Product Identification Code defined by client administrator</li>
+                        <li>Product Name: Product name defined by client administrator</li>
+                        <li>Product Description: General description of the product. Defined by client administrator
+                        </li>
+                        <li>Product Status: Client defined goods status defined by client administrator</li>
+                        <li>Product Age: # of days since the current product was assigned to the microtransponder tag
+                        </li>
+                        <li>Production Date (UTC): Date and time that the current product was assigned to the
+                            microtransponder tag</li>
+                        <li>Production Location: Geographical data collected when the current product was assigned to
+                            the microtransponder tag</li>
+                        <li>Last Scan Date (UTC): The last date that the tag was modified, tested or searched by the
+                            current group</li>
+                        <li>Last Scan Location: Geographical data collected when the tag was last scanned by a member of
+                            the current group</li>
+                        <li>Current Group: The group that is assigned as the current owner of the tag.</li>
+                    </ol>
+                </li>
                 <li>Edit: see <a href="#frmeditrecord">Edit Record Form</a> </li>
                 <li>Done: Close record details and return to list</li>
-                <li><strong>Related Tag Activity:</strong> Lists of activities performed by the current group members including: <strong>Production (Add Products), Tests and Search</strong></li>
+                <li><strong>Related Tag Activity:</strong> Lists of activities performed by the current group members
+                    including: <strong>Production (Add Products), Tests and Search</strong></li>
             </ol>
             <article id="frmeditrecord">
                 <h3>Edit Record Form</h3>
                 <img src="#" alt="-">
-                <p>The <strong>Edit Tag Details</strong> form allows you to edit the <strong>External ID</strong> of an existing p-Chip Tag.</p>
+                <p>The <strong>Edit Tag Details</strong> form allows you to edit the <strong>External ID</strong> of an
+                    existing p-Chip Tag.</p>
             </article>
-            <article>
+            <article id="frtest">
                 <h3>Test Form</h3>
                 <img src="#" alt="-">
-                <p>The <strong>Test Form</strong> can be accessed by navigating to the <a href="#uitestwindow"> Add Test Window</a>, scanning a p-Chip and then selecting the row from the scan list. The form provides you summmay information about the item scanned.</p>
+                <p>The <strong>Test Form</strong> can be accessed by navigating to the <a href="#uitestwindow"> Add Test
+                        Window</a>, scanning a p-Chip and then selecting the row from the scan list. The form provides
+                    you summmay information about the item scanned.</p>
                 <h3>Components</h3>
                 <ol>
                     <li>Select a test: Dropdown selection of tests created by your client administrator.</li>
@@ -319,7 +334,9 @@
             <article id="uierrorwindow">
                 <h3>Error Report Form</h3>
                 <img src="#" alt="-">
-                <p>The <strong>Error Report Form</strong> is how you as an application user can report any issues you experience with the p-Chip platform in your location. This report form is designed to streamline your feedback to your organization.</p>
+                <p>The <strong>Error Report Form</strong> is how you as an application user can report any issues you
+                    experience with the p-Chip platform in your location. This report form is designed to streamline
+                    your feedback to your organization.</p>
                 <h3>Components</h3>
                 <ol>
                     <li>Issue Type: Dropdown list of common types of user errors including:
@@ -331,13 +348,16 @@
                             <li>Other</li>
                         </ul>
                     </li>
-                    <li>Issue Description: Free text field to describe in more detail the specific issue you are experiencing.</li>
+                    <li>Issue Description: Free text field to describe in more detail the specific issue you are
+                        experiencing.</li>
                 </ol>
             </article>
             <article id="uisettingswindow">
                 <h3>Settings Window</h3>
                 <img src="#" alt="-">
-                <p>The <strong>Settings</strong> window is where you can manage important safety, performance and security features for your application. Additionally, you can view high level information about your device and license information.</p>
+                <p>The <strong>Settings</strong> window is where you can manage important safety, performance and
+                    security features for your application. Additionally, you can view high level information about your
+                    device and license information.</p>
                 <h3>Components</h3>
                 <ol>
                     <li>Read Delay (Seconds)</li>
@@ -355,7 +375,10 @@
         </section>
         <section id="winappfunctions">
             <h2>Functions</h2>
-            <p>The p-Chip Cloud Windows Application allows users to create and share information about products and equipment across local groups and global organizations. These functions are accessible to all licensed p-Chip Cloud users with the appropriate hardware supplied by p-Chip Corporation detailed in the <a href="#winappgettingstarted">Pre-Requisits</a> section of this user guide.</p>
+            <p>The p-Chip Cloud Windows Application allows users to create and share information about products and
+                equipment across local groups and global organizations. These functions are accessible to all licensed
+                p-Chip Cloud users with the appropriate hardware supplied by p-Chip Corporation detailed in the <a
+                    href="#winappgettingstarted">Pre-Requisits</a> section of this user guide.</p>
             <p>Instructions are provided for how to perform each of the activities currently available.</p>
             <h3>List of Functions</h3>
             <ul>
@@ -368,117 +391,140 @@
             </ul>
             <article id="fcreaterecords">
                 <h2>Create Records</h2>
-                <p><strong>Records</strong> are individual items to which a p-Chip has been applied. When you <strong>Create a Record</strong> with p-Chip, the p-Chip microtransponder serial number, metadata and your organizations user input is recorded into the p-Chip Cloud data platform.</p>
+                <p><strong>Records</strong> are individual items to which a p-Chip has been applied. When you
+                    <strong>Create a Record</strong> with p-Chip, the p-Chip microtransponder serial number, metadata
+                    and your organizations user input is recorded into the p-Chip Cloud data platform.
+                </p>
                 <h3>Instructions</h3>
                 <ol>
                     <li>Connect your p-Chip wand to your device</li>
-                    <li>Select the <strong>Add Record</strong> button from the <a href="uinavigation">navigation</a> menu</li>
-                    <li>If you belong to more then 1 group select the <strong>Group</strong> that should be the owner of this item, otherwise your default group will automatically be entered and not editable.</li>
+                    <li>Select the <strong>Add Record</strong> button from the <a href="#uinavigation">navigation</a>
+                        menu</li>
+                    <li>If you belong to more then 1 group select the <strong>Group</strong> that should be the owner of
+                        this item, otherwise your default group will automatically be entered and not editable.</li>
                     <li>Select the <strong>Product</strong> from the dropdown menu.</li>
                     <li>Select the <strong>Scanning Mode</strong>, multi-scan(recommended).</li>
                     <li>Press start</li>
                     <li>Press the tip of the wand against the p-Chip</li>
-                    <li>Stop scanner when all p-Chips have been recorded</li>
+                    <li>Stop scanner when all p-Chips have been scanned</li>
                 </ol>
                 <aside>
                     <h4>Important!</h4>
                     <ul>
-                        <li>A p-Chip can only be added to the system one time. If you attempt to add a p-Chip that already exists in the system, you will receive a warning from the application.</li>
-                        <li>Your license must belong to an active <strong>Group</strong> in order to create records.</li>
+                        <li>A p-Chip can only be added to the system one time. If you attempt to add a p-Chip that
+                            already exists in the system, you will receive a warning from the application.</li>
+                        <li>Your license must belong to an active <strong>Group</strong> in order to create records.
+                        </li>
                         <li>It is recommended to always specify a <strong>Product</strong> when creating a record.</li>
                         <li>A system generated noise will sound when a scan has been recorded.</li>
-                        <li>If you are scanning multiple items, the list of records will be sorted from newest to oldest creation date/time. The last record scanned will be the first record in the list.</li>
+                        <li>If you are scanning multiple items, the list of records will be sorted from newest to oldest
+                            creation date/time. The last record scanned will be the first record in the list.</li>
                     </ul>
                 </aside>
             </article>
-            <article>
+            <article id="feditrecords">
                 <h2>Edit Records</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                    dolore eu
-                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.</p>
+                <p>When a p-Chip record is <a href="#fcreaterecords">created</a> the <strong>External ID</strong> field
+                    is blank by default. This field can be updated by the user one time. Once this field is populated,
+                    it cannot be changed.</p>
                 <h3>Instructions</h3>
                 <ol>
-                    <li>-</li>
-                    <li>-</li>
-                    <li>-</li>
-                    <li>-</li>
+                    <li>Open the <a href="#uirecorddetails">Record Details</a> window.</li>
+                    <li>Select the <strong>Edit</strong> button</li>
+                    <li>Enter the External ID in the <strong>External ID</strong> field</li>
+                    <li>Select <strong>Save</strong></li>
                 </ol>
             </article>
-            <article>
+            <article id="faddproducts">
                 <h2>Add Products</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                    dolore eu
-                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.</p>
+                <p>A p-Chip record has a single product assigned to it at any given time. However, for multi-step
+                    processes, a single p-Chip can have multiple products assigned to it over its lifecycle. You can
+                    <strong>Add Products</strong> to an existing p-Chip record at anytime.
+                </p>
                 <h3>Instructions</h3>
                 <ol>
-                    <li>-</li>
-                    <li>-</li>
-                    <li>-</li>
-                    <li>-</li>
+                    <li>Connect your p-Chip wand to your device</li>
+                    <li>Select the <strong>Add Product</strong> button from the <a href="#uinavigation">navigation</a>
+                        menu</li>
+                    <li>If you belong to more then 1 group select the <strong>Group</strong> that should be the owner of
+                        this item, otherwise your default group will automatically be entered and not editable.</li>
+                    <li>Select the <strong>Product</strong> that should be added to the items you would like to scan
+                        from the dropdown menu.</li>
+                    <li>Select the <strong>Scanning Mode</strong>, multi-scan(recommended).</li>
+                    <li>Press start</li>
+                    <li>Press the tip of the wand against the p-Chip</li>
+                    <li>Stop scanner when all p-Chips have been scanned</li>
                 </ol>
+                <h4>Important!</h4>
+                <ul>
+                    <li>When adding a product, the new product cannot be the same as the current product associated with
+                        the p-Chip you are scanning. If the products are the same, you will receive a notification and
+                        the action will be canceled.</li>
+                    <li>Your license must belong to an active <strong>Group</strong> in order to add products.</li>
+                    <li>After adding a Product, the following information will be visible on the <a
+                            href="#uirecorddetails">Tag Details</a> page:
+                        <ul>
+                            <li>Product Code</li>
+                            <li>Product Name</li>
+                            <li>Product Description</li>
+                            <li>Product Status</li>
+                            <li>Product Age</li>
+                            <li>Production Date (UTC)</li>
+                            <li>Production Location</li>
+                        </ul>
+                    </li>
+                </ul>
             </article>
-            <article>
+            <article id="faddtests">
                 <h2>Add Tests</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                    dolore eu
-                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.</p>
+                <p><strong>Tests</strong> are supplmentary information that you can add to <strong>p-Chip
+                        Records</strong>. Tests are specified by your client administrator for your organization.</p>
                 <h3>Instructions</h3>
                 <ol>
-                    <li>-</li>
-                    <li>-</li>
-                    <li>-</li>
-                    <li>-</li>
+                    <li>Connect your p-Chip wand to your device.</li>
+                    <li>Select the <strong>Add Test</strong> button from the <a href="#uinavigation">navigation</a>
+                        menu.</li>
+                    <li>Select the <strong>Scanning Mode</strong>, multi-scan(recommended).</li>
+                    <li>Press start.</li>
+                    <li>Press the tip of the wand against the p-Chip.</li>
+                    <li>Stop scanner when all p-Chips have been scanned.</li>
+                    <li>Select a row from the list of scans performed to open the <a href="#frmtest">Test Form</a>.</li>
+                    <li>Select a <strong>Test</strong> from the dropdown list.</li>
+                    <li>Record your input in the <strong>Test Results/Comments</strong> section of the form.</li>
+                    <li>Press <strong>Save</strong>.</li>
                 </ol>
+                <h4>Important!</h4>
+                <ul>
+                    <li>p-Chip records must exist in your organization in order to test them. If a record does not exist, you will be prompted to first <strong>Add</strong> the record before performing a test.</li>
+                </ul>
             </article>
-            <article>
+            <article id="fsearch">
                 <h2>Search Records</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                    dolore eu
-                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.</p>
+                <p>p-Chips that have been applied to products and <a href="#fcreaterecords">added</a> in your can be searched using the p-Chip wand.</p>
                 <h3>Instructions</h3>
                 <ol>
-                    <li>-</li>
-                    <li>-</li>
-                    <li>-</li>
-                    <li>-</li>
+                    <li>Connect your p-Chip wand to your device.</li>
+                    <li>Select the <strong>Search</strong> button from the <a href="#uinavigation">navigation</a> menu.</li>
+                    <li>Select the <strong>Scanning Mode</strong>, multi-scan(recommended).</li>
+                    <li>Press start.</li>
+                    <li>Press the tip of the wand against the p-Chip.</li>
+                    <li>Stop scanner when all p-Chips have been scanned.</li>
+                    <li>Select a row from the list of records you have searched to view the <a href="#uirecorddetails">record details</a>.</li>
                 </ol>
+                <h4>Important!</h4>
+                <ul>
+                    <li>p-Chip records must exist in your organization in order to test them. If a record does not exist, you will be prompted to first <strong>Add</strong> the record before performing a test.</li>
+                </ul>
             </article>
-            <article>
+            <article id="ferrorreports">
                 <h2>Report Issues</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                    dolore eu
-                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.</p>
+                <p>You can <strong>report issues</strong> with p-Chip hardware and software to your client administrators using the <strong>Error Report</strong> function.</p>
                 <h3>Instructions</h3>
                 <ol>
-                    <li>-</li>
-                    <li>-</li>
-                    <li>-</li>
-                    <li>-</li>
+                    <li>Select the <strong>Error Report</strong> button from the <a href="#uinavigation">navigation</a> menu.</li>
+                    <li>Select the <strong>Type of Issue</strong> you are experiencing.</li>
+                    <li>Describe the issue you are experiencing in the <strong>Comments</strong> section.</li>
+                    <li>Press Save</li>
                 </ol>
             </article>
         </section>
