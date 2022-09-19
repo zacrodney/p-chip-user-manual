@@ -33,6 +33,7 @@ nav {
 
 .screenshots {
     width: 90%;
+    height: auto;
     display: block;
     margin: auto;
 }
