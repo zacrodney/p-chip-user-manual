@@ -26,7 +26,7 @@
                     <li>Add Products</li>
                     <li>Add Tests</li>
                     <li>Search Records</li>
-                    <li>Report Issues</li>
+                    <li>Error Reports</li>
                 </ul>
             </li>
         </ul>
@@ -34,130 +34,189 @@
     <main>
         <section>
             <h2>Overview</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.</p>
+            <p>The p-Chip Cloud Desktop application is a Windows based desktop application that is integrated with the
+                p-Chip Wand or Scanner. Users can create, edit and search for products using p-Chip microtransponder
+                technology. Work performed in this application is uploaded to the p-Chip Cloud where it can be accessed
+                by authorized users across your organization and with participating supply chain partners.</p>
         </section>
         <section>
             <h2>Getting Started</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.</p>
-            <h3>Pre-Requisits</h3>
-            <ol>
-                <li>-</li>
-                <li>-</li>
-                <li>-</li>
-                <li>-</li>
-            </ol>
-            <h3>Installation</h3>
-            <ol>
-                <li>-</li>
-                <li>-</li>
-                <li>-</li>
-                <li>-</li>
-            </ol>
-            <h3>Set Up</h3>
-            <ol>
-                <li>-</li>
-                <li>-</li>
-                <li>-</li>
-                <li>-</li>
-            </ol>
+            <p>This guide will help you as p-Chip Cloud user get up and running quickly to start experiencing the
+                incredible benefits that securing your products with p-Chip microtransponder technology offers to you
+                and your customers.</p>
+            <p>To read more about the benefits of p-Chip security start your journey <a
+                    href="https://p-chip.com/about/">here</a>.
+            </p>
+            <article>
+                <h3>Pre-Requisits</h3>
+                <ol>
+                    <li>Windows 10 OS version 21H2</li>
+                    <li>p-Chip Wand</li>
+                    <li><a href="/index.html#pchipusbdrivers">p-Chip Wand USB Drivers</a></li>
+                    <li>USB-A Device Port</li>
+                    <li><a href="/usermanual_webapp.html#forganizations">p-Chip Cloud Organization</a> </li>
+                    <li><a href="/usermanual_webapp.html#fgroups">p-Chip Cloud Group</a> </li>
+                    <li><a href="/usermanual_webapp.html#fproducts">p-Chip Cloud Products</a> </li>
+                    <li><a href="/usermanual_webapp.html#flicenses">p-Chip Cloud License</a> </li>
+                </ol>
+            </article>
+            <article>
+                <h3>Installation</h3>
+                <ol>
+                    <li>Download the <a href="/index.html#pchipwindowsapp">p-Chip Cloud Windows Application</a></li>
+                    <li>Complete the installation wizard</li>
+                </ol>
+            </article>
+            <article>
+                <h3>Set Up</h3>
+                <ol>
+                    <li>Enable location services for the p-Chip Cloud Windows Application. Visit <a
+                            href="https://support.microsoft.com/en-us/windows/windows-location-service-and-privacy-3a8eee0a-5b0b-dc07-eede-2a5ca1c49088">here</a>
+                        for instructions on how to enable location services</li>
+                    <li>Connect to a secure wifi network</li>
+                    <li>Open the p-Chip Cloud Windows application</li>
+                    <li>Open the <strong>Settings</strong> tab</li>
+                    <li>Select <strong>View</strong> next to <strong>License #</strong></li>
+                    <li>Enter ther <strong>License Number</strong> and <strong>License Key</strong> provided by your
+                        administrator</li>
+                </ol>
+            </article>
         </section>
         <section>
             <h2>User Interface Guide</h2>
             <article>
-                <h3>Main Window</h3>
+                <h3>Navigation</h3>
+                <img src="#" alt="Navigation">
+                <p>The p-Chip Cloud Windows Application is designed to be easy to use across desktop and tablet devices.
+                    To navigate through the features and functions of the application, use the navigation pane on the
+                    left hand side of the screen.</p>
+                <h3>Components</h3>
+                <ol>
+                    <li><a href="#uirecordslist">Records List</a></li>
+                    <li><a href="#uiaddwindow">Add Records</a></li>
+                    <li><a href="#uiconvertwindow">Add Product</a></li>
+                    <li><a href="#uitestwindow">Test Records</a></li>
+                    <li><a href="#uisearchwindow">Search Records</a></li>
+                    <li><a href="#uihelpwindow">User Manual</a></li>
+                    <li><a href="#uierrorwindow">Error Report</a></li>
+                    <li><a href="#uisettingswindow">Settings</a></li>
+                </ol>
+            </article>
+            <article id="uirecordslist">
+                <h3>Records List</h3>
                 <img src="#" alt="main window">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum.</p>
-                <h3>Components</h3>
+                <p>The <strong>Records List</strong> is the first window you see when the application opens. This view
+                    shows you all products tagged with p-Chip microtransponder tags in your group. Read more about <a
+                        href="/usermanual_webapp.html#fgroups">groups.</a></p>
+                <h4>Components</h4>
                 <ol>
-                    <li>-</li>
-                    <li>-</li>
-                    <li>-</li>
-                    <li>-</li>
-                    <li>-</li>
-                    <li>-</li>
-                    <li>-</li>
-                    <li>-</li>
+                    <li><strong>Product List:</strong> List of products to which your license has access.</li>
+                    <li><strong>Filters:</strong> Filter your list of products by selecting your filter criteria and
+                        pressing <strong>Apply</strong>. Filter based on the following criteria:
+                        <ul>
+                            <li>Groups</li>
+                            <li>Product Name</li>
+                            <li>Product Status</li>
+                            <li>Tag Status</li>
+                            <li>Internal ID</li>
+                            <li>Created Date Range (From-To)</li>
+                        </ul>
+                    </li>
+                    <li><strong>Device Identifier:</strong> 4 digit code of your p-Chip Wand</li>
+                    <li><strong>Sync Now:</strong> Manually sync your local data with your organization cloud data
+                        repository.</li>
+                    <li><strong>Network Status:</strong> Your devices network status</li>
                 </ol>
             </article>
-            <article>
+            <article id="uiaddwindow">
                 <h3>Add Record Window</h3>
-                <img src="#" alt="-">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                    dolore eu
-                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.</p>
-                <h3>Components</h3>
+                <img src="#" alt="Add Records Window">
+                <p>The <strong>Add</strong> records window is where you can apply a p-Chip to a product and create in in
+                    the local application for the first time.</p>
+                <h4>Components</h4>
                 <ol>
-                    <li>-</li>
-                    <li>-</li>
-                    <li>-</li>
-                    <li>-</li>
-                    <li>-</li>
-                    <li>-</li>
-                    <li>-</li>
-                    <li>-</li>
+                    <li><strong>Select Group:</strong> Select the group to which you want to assign this item.</li>
+                    <li><strong>Select Product:</strong> Select the product to which you want to assign this item.</li>
+                    <li><strong>Scanning Settings:</strong> Select from the available options:
+                        <ol>
+                            <li><strong>Single:</strong> Turn on the wand for a single scan. After you scan a single
+                                p-Chip, the wand will be turned off.</li>
+                            <li><strong>Multiple:</strong> Turn on the wand and scan multiple records. The device will
+                                automatically shut off after the amount of time you indicate in the <a
+                                    href="uisettings">Settings</a> option <strong>Auto Scanner Shutdown
+                                    (seconds)</strong></li>
+                            <li><strong>Always On:</strong> Turn on the wand and scan multiple records. To turn off the
+                                device, press the <strong>Stop</strong> button.</li>
+                        </ol>
+                    </li>
+                    <li><strong>Start/Stop Button:</strong> Start (power on) and Stop (power off) the wand for scanning.
+                    </li>
+                    <li><strong>Session List:</strong> List of p-Chip microtransponder tags scanned during one session
+                        (i.e. at one time when the window is open). After closing the window or navigating away from the
+                        current view, the list will be removed and visible in the <a href="#uirecordslist"> records
+                            list</a>.</li>
+                    <li><strong>Row Count:</strong> Counts the number of rows the in the <strong>Session List</strong>.
+                    </li>
                 </ol>
             </article>
-            <article>
+            <article id="uiconvertwindow">
                 <h3>Add Product Window</h3>
                 <img src="#" alt="-">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                    dolore eu
-                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.</p>
-                <h3>Components</h3>
+                <p>The <strong>Add Product</strong> window is where you can add a new product to an existing p-Chip
+                    record.</p>
+                <h4>Components</h4>
                 <ol>
-                    <li>-</li>
-                    <li>-</li>
-                    <li>-</li>
-                    <li>-</li>
-                    <li>-</li>
-                    <li>-</li>
-                    <li>-</li>
-                    <li>-</li>
+                    <li><strong>Select Group:</strong> Select the group to which you want to assign this item.</li>
+                    <li><strong>Select Product:</strong> Select the product to which you want to assign this item.</li>
+                    <li><strong>Scanning Settings:</strong> Select from the available options:
+                        <ol>
+                            <li><strong>Single:</strong> Turn on the wand for a single scan. After you scan a single
+                                p-Chip, the wand will be turned off.</li>
+                            <li><strong>Multiple:</strong> Turn on the wand and scan multiple records. The device will
+                                automatically shut off after the amount of time you indicate in the <a
+                                    href="uisettings">Settings</a> option <strong>Auto Scanner Shutdown
+                                    (seconds)</strong></li>
+                            <li><strong>Always On:</strong> Turn on the wand and scan multiple records. To turn off the
+                                device, press the <strong>Stop</strong> button.</li>
+                        </ol>
+                    </li>
+                    <li><strong>Start/Stop Button:</strong> Start (power on) and Stop (power off) the wand for scanning.
+                    </li>
+                    <li><strong>Session List:</strong> List of p-Chip microtransponder tags scanned during one session
+                        (i.e. at one time when the window is open). After closing the window or navigating away from the
+                        current view, the list will be removed and visible in the <a href="#uirecordslist"> records
+                            list</a>.</li>
+                    <li><strong>Row Count:</strong> Counts the number of rows the in the <strong>Session List</strong>.
+                    </li>
                 </ol>
             </article>
-            <article>
+            <article id="uitestwindow">
                 <h3>Add Test Window</h3>
                 <img src="#" alt="-">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                    dolore eu
-                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.</p>
-                <h3>Components</h3>
+                <p>The <strong>Add Test</strong> window is where you can record tests and other relevant information
+                    that should be stored in the p-Chip Cloud data repository.</p>
+                <h4>Components</h4>
                 <ol>
-                    <li>-</li>
-                    <li>-</li>
-                    <li>-</li>
-                    <li>-</li>
-                    <li>-</li>
-                    <li>-</li>
-                    <li>-</li>
-                    <li>-</li>
+                    <li><strong>Scanning Settings:</strong> Select from the available options:
+                        <ol>
+                            <li><strong>Single:</strong> Turn on the wand for a single scan. After you scan a single
+                                p-Chip, the wand will be turned off.</li>
+                            <li><strong>Multiple:</strong> Turn on the wand and scan multiple records. The device will
+                                automatically shut off after the amount of time you indicate in the <a
+                                    href="uisettings">Settings</a> option <strong>Auto Scanner Shutdown
+                                    (seconds)</strong></li>
+                            <li><strong>Always On:</strong> Turn on the wand and scan multiple records. To turn off the
+                                device, press the <strong>Stop</strong> button.</li>
+                        </ol>
+                    </li>
+                    <li><strong>Start/Stop Button:</strong> Start (power on) and Stop (power off) the wand for scanning.
+                    </li>
+                    <li><strong>Session List:</strong> List of p-Chip microtransponder tags scanned during one session
+                        (i.e. at one time when the window is open). After closing the window or navigating away from the
+                        current view, the list will be removed and visible in the <a href="#uirecordslist"> records
+                            list</a>.</li>
+                    <li><strong>Row Count:</strong> Counts the number of rows the in the <strong>Session List</strong>.
+                    </li>
                 </ol>
             </article>
             <article>
@@ -171,16 +230,28 @@
                     dolore eu
                     fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
                     deserunt mollit anim id est laborum.</p>
-                <h3>Components</h3>
+                <h4>Components</h4>
                 <ol>
-                    <li>-</li>
-                    <li>-</li>
-                    <li>-</li>
-                    <li>-</li>
-                    <li>-</li>
-                    <li>-</li>
-                    <li>-</li>
-                    <li>-</li>
+                    <li><strong>Scanning Settings:</strong> Select from the available options:
+                        <ol>
+                            <li><strong>Single:</strong> Turn on the wand for a single scan. After you scan a single
+                                p-Chip, the wand will be turned off.</li>
+                            <li><strong>Multiple:</strong> Turn on the wand and scan multiple records. The device will
+                                automatically shut off after the amount of time you indicate in the <a
+                                    href="uisettings">Settings</a> option <strong>Auto Scanner Shutdown
+                                    (seconds)</strong></li>
+                            <li><strong>Always On:</strong> Turn on the wand and scan multiple records. To turn off the
+                                device, press the <strong>Stop</strong> button.</li>
+                        </ol>
+                    </li>
+                    <li><strong>Start/Stop Button:</strong> Start (power on) and Stop (power off) the wand for scanning.
+                    </li>
+                    <li><strong>Session List:</strong> List of p-Chip microtransponder tags scanned during one session
+                        (i.e. at one time when the window is open). After closing the window or navigating away from the
+                        current view, the list will be removed and visible in the <a href="#uirecordslist"> records
+                            list</a>.</li>
+                    <li><strong>Row Count:</strong> Counts the number of rows the in the <strong>Session List</strong>.
+                    </li>
                 </ol>
             </article>
             <h3>Record Details Window</h3>
