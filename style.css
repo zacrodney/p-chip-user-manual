@@ -99,3 +99,8 @@ li a:hover {
 ul {
     list-style-type: none;
 }
+
+#google_translate_element {
+    display: inline-block;
+    float: right;
+}
