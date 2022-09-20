@@ -1,0 +1,2738 @@
+﻿<?xml version="1.0" ?>
+<dpinst>
+
+<!-- The following search and subDirectory elements direct
+     DPInst to search all subdirectories (under the DPInst working directory) to locate driver
+     packages. -->
+    <search>
+      <subDirectory>*</subDirectory>
+	</search>
+
+<!-- The following language element localizes its child elements
+     for the English (Standard) language. The child elements
+     customize the text that appears on the DPInst wizard pages. -->
+    <language code="1025">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1026">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1027">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1028">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1029">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1030">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1031">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1032">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1033">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1034">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1035">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1036">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1037">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1038">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1039">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+	<language code="1040">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1041">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1042">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1043">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1044">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1045">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+	<language code="1046">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+	<language code="1047">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+	<language code="1048">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+	<language code="1049">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1050">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1051">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1052">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1053">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1054">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1055">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1056">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1057">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1058">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1059">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1060">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1061">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1062">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1063">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+	<language code="1064">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1065">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1066">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1067">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1068">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1069">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+	<language code="1070">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+	<language code="1071">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+	<language code="1072">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+	<language code="1073">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1074">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1075">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1076">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1077">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1078">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1079">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1080">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1081">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1082">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1083">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1084">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1085">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1086">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1087">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+	<language code="1088">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1089">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1090">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1091">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1092">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1093">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+	<language code="1094">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+	<language code="1095">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+	<language code="1096">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+	<language code="1097">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1098">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1099">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1100">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1101">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1102">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1103">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1104">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1105">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1106">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1107">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1108">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1109">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1110">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1111">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+	<language code="1112">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1113">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1114">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1115">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1116">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1117">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+	<language code="1118">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+	<language code="1119">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+	<language code="1120">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+	<language code="1121">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1122">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1123">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1124">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1125">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1126">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1127">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1128">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1129">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1130">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1131">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+	<language code="1132">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1133">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1134">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1135">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1136">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1137">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+	<language code="1138">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+	<language code="1139">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+	<language code="1140">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+	<language code="1141">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1142">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1143">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1144">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1145">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+	<language code="1152">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1153">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="1279">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="2049">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="2052">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="2055">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="2057">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+	<language code="2058">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="2060">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="2064">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="2067">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="2068">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="2070">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+	<language code="2072">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+	<language code="2073">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+	<language code="2074">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+	<language code="2077">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="2080">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="2092">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="2108">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="2110">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="2115">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="2117">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="2118">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="2128">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="2129">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="2137">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+	<language code="2143">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="2144">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="2145">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="2155">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="2163">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="3073">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+	<language code="3076">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+	<language code="3079">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+	<language code="3081">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+	<language code="3082">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="3084">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="3098">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="3179">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="4097">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+	<language code="4100">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+	<language code="4103">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+	<language code="4105">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+	<language code="4106">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="4108">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="4122">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="5121">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="5124">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="5127">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="5129">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="5130">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="5132">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="5146">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="6145">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+	<language code="6153">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="6154">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="6156">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="7169">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="7177">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="7178">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+	<language code="7180">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+	<language code="8193">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+	<language code="8201">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+	<language code="8202">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="8204">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="9217">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="9225">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="9226">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+	<language code="9228">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="10241">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="10249">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="10250">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="10252">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="11265">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="11273">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="11274">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="11276">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+	<language code="12289">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="12297">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="12298">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="12300">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="13313">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="13321">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+	<language code="13322">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+	<language code="13324">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+	<language code="14337">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+	<language code="14345">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="14346">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="14348">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="15361">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="15369">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+	<language code="15370">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+	<language code="15372">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+	<language code="16385">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+	<language code="16393">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="16394">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="17417">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="17418">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="18441">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="18442">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="19466">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="20490">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="21514">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="58378">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+    <language code="58380">
+      <dpinstTitle>PharmaSeq Wand Device Driver Installer</dpinstTitle>
+      <welcomeTitle>Welcome to the PharmaSeq Wand Device Driver Installer!</welcomeTitle>
+      <welcomeIntro>This wizard will walk you through updating the drivers for your PharmaSeq Wand device.</welcomeIntro>
+      <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
+      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
+      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
+      <eula type="txt" path="MTLinkEULA.txt"/>
+      <installHeaderTitle>Installing the software for your PharmaSeq Wand device...</installHeaderTitle>
+      <finishTitle>Congratulations! You are finished installing your Wand device.</finishTitle>
+      <finishText>Enjoy using the PharmaSeq Wand.</finishText>
+    </language>
+</dpinst>

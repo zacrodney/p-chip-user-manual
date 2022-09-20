@@ -1,0 +1,98 @@
+; Installation inf for the PharmaSeq, Inc. USB devices
+;
+; (c) Copyright 2006-2010 PharmaSeq, Inc.
+;
+
+[Version]
+Signature="$Chicago$"
+Class=USB
+ClassGUID={36FC9E60-C465-11CF-8056-444553540000}
+Provider=%PSEQ%
+DriverVer=01/17/2012,1.0.1.0
+PnpLockDown=1
+DriverPackageType=PlugAndPlay
+DriverPackageDisplayName=PharmaSeq USB Device Driver
+CatalogFile.NTamd64=MTLink.cat
+
+[SourceDisksNames]
+1="MTLink Installation Disk",,,
+
+[SourceDisksFiles]
+MTLink.sys = 1
+MTLink.inf = 1
+
+[Manufacturer]
+%MfgName% = PharmaSeq,NTamd64
+
+[PharmaSeq.NTamd64]
+; PharmaSeq, Inc. Wand booted from EEPROM
+%USB\VID_6666&PID_7171.DeviceDesc%=MTLINK.Dev.NTamd64, USB\VID_6666&PID_7171
+
+; PharmaSeq, Inc. HPLMR4U booted from EEPROM
+%USB\VID_6666&PID_7272.DeviceDesc%=MTLINK.Dev.NTamd64, USB\VID_6666&PID_7272
+
+; PharmaSeq, Inc. FSC5 booted from EEPROM
+%USB\VID_6666&PID_7373.DeviceDesc%=MTLINK.Dev.NTamd64, USB\VID_6666&PID_7373
+
+; Cypress FX2 with no EEPROM
+%USB\VID_04B4&PID_8613.DeviceDesc%=EZUSB.Dev.NTamd64, USB\VID_04B4&PID_8613
+
+[DestinationDirs]
+MTLINK.Files.Ext = 12
+MTLINK.Files.Inf = 17
+
+[MTLINK.Dev]
+CopyFiles=MTLINK.Files.Ext, MTLINK.Files.Inf
+AddReg=MTLINK.AddReg
+
+[MTLINK.Dev.NTamd64]
+CopyFiles=MTLINK.Files.Ext
+AddReg=MTLINK.AddReg.NTamd64
+
+[MTLINK.Dev.NTamd64.Services]
+Addservice = MTLINK, 0x00000002, MTLINK.AddService
+
+[EZUSB.Dev]
+CopyFiles=MTLINK.Files.Ext, MTLINK.Files.Inf
+AddReg=MTLINK.AddReg
+
+[EZUSB.Dev.NTamd64]
+CopyFiles=MTLINK.Files.Ext
+AddReg=MTLINK.AddReg.NTamd64
+
+[EZUSB.Dev.NTamd64.Services]
+Addservice = MTLINK, 0x00000002, MTLINK.AddService
+
+[MTLINK.AddService]
+DisplayName    = %MTLINK.SvcDesc%
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 3                  ; SERVICE_DEMAND_START
+ErrorControl   = 1                  ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %12%\MTLink.sys
+LoadOrderGroup = Base
+
+[MTLINK.AddReg.NTamd64]
+HKR,,DevLoader,,*ntkern
+HKR,,NTMPDriver,,MTLink.sys
+HKR,"MTLink\Parameters","MaximumTransferSize",0x10001,32768
+HKR,"MTLink\Parameters","DebugLevel",0x10001,0
+
+[MTLINK.Files.Ext]
+MTLink.sys
+
+[MTLINK.Files.Inf]
+MTLink.Inf
+
+
+;---------------------------------------------------------------;
+
+[Strings]
+PSEQ="PharmaSeq, Inc."
+MfgName="PharmaSeq, Inc."
+PharmaSeq="PharmaSeq, Inc."
+USB\VID_6666&PID_7171.DeviceDesc="PharmaSeq, Inc. Wand USB device"
+USB\VID_6666&PID_7272.DeviceDesc="PharmaSeq, Inc. HPLMR4U USB device"
+USB\VID_6666&PID_7373.DeviceDesc="PharmaSeq, Inc. FSC5 USB device"
+USB\VID_04B4&PID_8613.DeviceDesc="Cypress EZ-USB FX2 (68613) - EEPROM missing"
+MTLINK.SvcDesc="MTLink.Sys PharmaSeq, Inc. USB device driver"
+
