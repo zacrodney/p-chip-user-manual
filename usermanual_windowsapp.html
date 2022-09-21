@@ -109,7 +109,7 @@
             <h2>User Interface Guide</h2>
             <article>
                 <h3>Navigation</h3>
-                <img src="#" alt="Navigation">
+                <img class="imagenarrow" src="images/windowsapp/windows-navigation.PNG" alt="Navigation">
                 <p>The p-Chip Cloud Windows Application is designed to be easy to use across desktop and tablet devices.
                     To navigate through the features and functions of the application, use the navigation pane on the
                     left hand side of the screen.</p>
@@ -127,13 +127,15 @@
             </article>
             <article id="uirecordslist">
                 <h3>Records List</h3>
-                <img src="#" alt="main window">
+                <img class="screenshots" src="images/windowsapp/windows-record-list.png" alt="main window">
                 <p>The <strong>Records List</strong> is the first window you see when the application opens. This view
                     shows you all products tagged with p-Chip microtransponder tags in your group. Read more about <a
                         href="usermanual_webapp.html#fgroups">groups.</a></p>
                 <h4>Components</h4>
                 <ol>
-                    <li><strong>Product List:</strong> List of products to which your license has access.</li>
+                    <li><strong>Sync Now:</strong> Manually sync your local data with your organization cloud data repository.</li>
+                    <li><strong>Network Status:</strong> Your devices network status</li>
+                    <li><strong>Device Identifier:</strong> 4 digit code of your p-Chip Wand</li>
                     <li><strong>Filters:</strong> Filter your list of products by selecting your filter criteria and
                         pressing <strong>Apply</strong>. Filter based on the following criteria:
                         <ul>
@@ -145,15 +147,12 @@
                             <li>Created Date Range (From-To)</li>
                         </ul>
                     </li>
-                    <li><strong>Device Identifier:</strong> 4 digit code of your p-Chip Wand</li>
-                    <li><strong>Sync Now:</strong> Manually sync your local data with your organization cloud data
-                        repository.</li>
-                    <li><strong>Network Status:</strong> Your devices network status</li>
+                    <li><strong>Product List:</strong> List of products to which your license has access.</li>
                 </ol>
             </article>
             <article id="uiaddwindow">
                 <h3>Add Record Window</h3>
-                <img src="#" alt="Add Records Window">
+                <img class="screenshots" src="images/windowsapp/windows-addtab-blank.png" alt="Add Records Window">
                 <p>The <strong>Add</strong> records window is where you can apply a p-Chip to a product and create in in
                     the local application for the first time.</p>
                 <h4>Components</h4>
@@ -184,7 +183,7 @@
             </article>
             <article id="uiconvertwindow">
                 <h3>Add Product Window</h3>
-                <img src="#" alt="-">
+                <img class="screenshots" src="images/windowsapp/windows-convert-list-blank.png" alt="-">
                 <p>The <strong>Add Product</strong> window is where you can add a new product to an existing p-Chip
                     record.</p>
                 <h4>Components</h4>
@@ -270,9 +269,10 @@
                     <li><strong>Row Count:</strong> Counts the number of rows the in the <strong>Session List</strong>.
                     </li>
                 </ol>
-            </article id="uirecorddetail">
+            </article>
+            <article id="uirecorddetail">
             <h3>Record Details Window</h3>
-            <img src="#" alt="record details window">
+            <img class="screenshots" src="images/windowsapp/windows-recorddetail.png" alt="record details window">
             <p>The <strong>Record Details</strong> window displays all recorded information about a tag and related
                 product, as well as the <strong>Production, Test and Search</strong> activities performed by all users
                 within your organization.</p>
@@ -307,8 +307,15 @@
                 <li>Edit: see <a href="#frmeditrecord">Edit Record Form</a> </li>
                 <li>Done: Close record details and return to list</li>
                 <li><strong>Related Tag Activity:</strong> Lists of activities performed by the current group members
-                    including: <strong>Production (Add Products), Tests and Search</strong></li>
+                    including: 
+                    <ol>
+                        <li>Production: List of products associated with the current tag.</li>
+                        <li>Test: List of tests and test results associated with the current tag.</li>
+                        <li>Search: List of searches performed on the associated tag.</li>
+                    </ol>
+                </li>
             </ol>
+            </article>
             <article id="frmeditrecord">
                 <h3>Edit Record Form</h3>
                 <img src="#" alt="-">
@@ -365,7 +372,7 @@
             </article>
             <article id="uisettingswindow">
                 <h3>Settings Window</h3>
-                <img src="#" alt="-">
+                <img class="screenshots" src="images/windowsapp/windows-settingstab.png" alt="-">
                 <p>The <strong>Settings</strong> window is where you can manage important safety, performance and
                     security features for your application. Additionally, you can view high level information about your
                     device and license information.</p>

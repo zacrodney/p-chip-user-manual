@@ -41,6 +41,10 @@ nav {
     margin: auto;
 }
 
+.imagenarrow {
+    height: 500px;
+}
+
 #logo {
     width: 75px;
     display: inline-flex;
@@ -105,4 +109,17 @@ ul {
 
 #google_translate_element {
     float: right;
+}
+
+ol {
+    counter-reset: item
+}
+
+ol li {
+    display: block
+}
+
+ol li:before {
+    content: counters(item, ".") ". ";
+    counter-increment: item;
 }
