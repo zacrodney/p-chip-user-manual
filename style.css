@@ -136,3 +136,9 @@ ol li:before {
     display: inline-block;
     margin-left: 20px;
 }
+
+.imageinline {
+    display: inline-flexbox;
+    height: 30px;
+    vertical-align: middle;
+}
