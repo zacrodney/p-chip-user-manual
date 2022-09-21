@@ -25,13 +25,13 @@
     </header>
     <nav>
         <h2>Contents</h2>
-        <ul>
+        <ul id="navlist">
             <li><a href="#winappoverview">Overview</a></li>
             <li><a href="#winappgettingstarted">Getting Started</a></li>
             <li><a href="#winappuiguide">User Interface Guide</a></li>
             <li><a href="#uisettingswindow">Settings</a></li>
             <li><a href="#winappfunctions">List of Functions</a>
-                <ul>
+                <ul id="navlist">
                     <li><a href="#fcreaterecords">Create Records</a></li>
                     <li><a href="#feditrecords">Edit Records</a></li>
                     <li><a href="#faddproducts">Add Products</a></li>
@@ -107,23 +107,27 @@
         </section>
         <section id="winappuiguide">
             <h2>User Interface Guide</h2>
-            <article>
-                <h3>Navigation</h3>
-                <img class="imagenarrow" src="images/windowsapp/windows-navigation.PNG" alt="Navigation">
-                <p>The p-Chip Cloud Windows Application is designed to be easy to use across desktop and tablet devices.
-                    To navigate through the features and functions of the application, use the navigation pane on the
-                    left hand side of the screen.</p>
-                <h3>Components</h3>
-                <ol>
-                    <li><a href="#uirecordslist">Records List</a></li>
-                    <li><a href="#uiaddwindow">Add Records</a></li>
-                    <li><a href="#uiconvertwindow">Add Product</a></li>
-                    <li><a href="#uitestwindow">Test Records</a></li>
-                    <li><a href="#uisearchwindow">Search Records</a></li>
-                    <li><a href="#uihelpwindow">User Manual</a></li>
-                    <li><a href="#uierrorwindow">Error Report</a></li>
-                    <li><a href="#uisettingswindow">Settings</a></li>
-                </ol>
+            <h3>Navigation</h3>
+            <article id="navigation">
+                <div id="navheader">
+                    <img class="imagenarrow" src="images/windowsapp/windows-navigation.png" alt="Navigation">
+                </div>
+                <div id="navcontent">
+                    <p>The p-Chip Cloud Windows Application is designed to be easy to use across desktop and tablet devices.
+                        To navigate through the features and functions of the application, use the navigation pane on the
+                        left hand side of the screen.</p>
+                    <h3>Components</h3>
+                    <ol>
+                        <li><a href="#uirecordslist">Records List</a></li>
+                        <li><a href="#uiaddwindow">Add Records</a></li>
+                        <li><a href="#uiconvertwindow">Add Product</a></li>
+                        <li><a href="#uitestwindow">Test Records</a></li>
+                        <li><a href="#uisearchwindow">Search Records</a></li>
+                        <li><a href="#uihelpwindow">User Manual</a></li>
+                        <li><a href="#uierrorwindow">Error Report</a></li>
+                        <li><a href="#uisettingswindow">Settings</a></li>
+                    </ol>
+                </div>
             </article>
             <article id="uirecordslist">
                 <h3>Records List</h3>
@@ -214,7 +218,7 @@
             </article>
             <article id="uitestwindow">
                 <h3>Add Test Window</h3>
-                <img src="#" alt="-">
+                <img class="screenshots" src="images/windowsapp/windows-test-list-blank.png" alt="Add Test Window">
                 <p>The <strong>Add Test</strong> window is where you can record tests and other relevant information
                     that should be stored in the p-Chip Cloud data repository.</p>
                 <h4>Components</h4>
@@ -243,7 +247,7 @@
             </article>
             <article>
                 <h3>Search Window</h3>
-                <img src="#" alt="-">
+                <img class="screenshots" src="images/windowsapp/windows-search-list-blank.png" alt="Search Window">
                 <p>The <strong>Search</strong> window is where you can search for records that have been created by or
                     added to your group.</p>
                 <h4>Components</h4>
@@ -318,13 +322,19 @@
             </article>
             <article id="frmeditrecord">
                 <h3>Edit Record Form</h3>
-                <img src="#" alt="-">
+                <img class="imagenarrow" src="images/windowsapp/windows-record-detail-edit-form.png" alt="-">
                 <p>The <strong>Edit Tag Details</strong> form allows you to edit the <strong>External ID</strong> of an
                     existing p-Chip Tag.</p>
+                <ol>
+                    <li>Product Status: Select the product status option. This can be updated at anytime. Product status options are created by the Client Administrator. For more information, see <a href="usermanual_webapp.html#fproducts">Creating Products</a></li>
+                    <li>External ID: Enter the External ID of the item. This field can only be modified once.</li>
+                    <li>Save Button: Save form input</li>
+                    <li>Cancel Button: Close form and return to Record Details Window</li>
+                </ol>
             </article>
             <article id="frtest">
                 <h3>Test Form</h3>
-                <img src="#" alt="-">
+                <img class="screenshots" src="images/windowsapp/windows-test-form.png" alt="-">
                 <p>The <strong>Test Form</strong> can be accessed by navigating to the <a href="#uitestwindow"> Add Test
                         Window</a>, scanning a p-Chip and then selecting the row from the scan list. The form provides
                     you summmay information about the item scanned.</p>
@@ -351,23 +361,16 @@
             </article>
             <article id="uierrorwindow">
                 <h3>Error Report Form</h3>
-                <img src="#" alt="-">
+                <img class="screenshots" src="images/windowsapp/windows-errorreport-form.png" alt="Error Report Form">
                 <p>The <strong>Error Report Form</strong> is how you as an application user can report any issues you
                     experience with the p-Chip platform in your location. This report form is designed to streamline
                     your feedback to your organization.</p>
                 <h3>Components</h3>
                 <ol>
-                    <li>Issue Type: Dropdown list of common types of user errors including:
-                        <ul>
-                            <li>Cannot find the tag</li>
-                            <li>Cannot scan the tag</li>
-                            <li>The scanner is not turning on</li>
-                            <li>The scanner is not turning off</li>
-                            <li>Other</li>
-                        </ul>
-                    </li>
+                    <li>Issue Type: Dropdown list of common types of user errors</li>
                     <li>Issue Description: Free text field to describe in more detail the specific issue you are
                         experiencing.</li>
+                    <li>Send: Save form</li>
                 </ol>
             </article>
             <article id="uisettingswindow">
@@ -399,7 +402,7 @@
                     href="#winappgettingstarted">Pre-Requisits</a> section of this user guide.</p>
             <p>Instructions are provided for how to perform each of the activities currently available.</p>
             <h3>List of Functions</h3>
-            <ul>
+            <ul class="bulletlist">
                 <li>Create Records</li>
                 <li>Edit Records</li>
                 <li>Add Products</li>

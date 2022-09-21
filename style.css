@@ -103,7 +103,7 @@ li a:hover {
     color: darkblue
 }
 
-ul {
+#navlist {
     list-style-type: none;
 }
 
@@ -122,4 +122,17 @@ ol li {
 ol li:before {
     content: counters(item, ".") ". ";
     counter-increment: item;
+}
+
+#navigation {
+    display: inline-flex;
+}
+
+#navheader {
+    display: inline-block;
+}
+
+#navcontent {
+    display: inline-block;
+    margin-left: 20px;
 }
