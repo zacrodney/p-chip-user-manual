@@ -20,7 +20,7 @@
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="usermanual_webapp.html">Web App User Guide</a></li>
-                <li><a href="usermanual_windowsapp.html">Windows App User Guide</a></li>
+                <li><a class="aslected" href="usermanual_windowsapp.html">Windows App User Guide</a></li>
             </ul>
         </nav>
     </header>
@@ -124,7 +124,7 @@
                         <li><a href="#uiconvertwindow">Add Product</a></li>
                         <li><a href="#uitestwindow">Test Records</a></li>
                         <li><a href="#uisearchwindow">Search Records</a></li>
-                        <li><a href="#uihelpwindow">User Manual</a></li>
+                        <li><a href="#winappoverview">User Manual</a></li>
                         <li><a href="#uierrorwindow">Error Report</a></li>
                         <li><a href="#uisettingswindow">Settings</a></li>
                     </ol>
@@ -170,7 +170,7 @@
                                 p-Chip, the wand will be turned off.</li>
                             <li><strong>Multiple:</strong> Turn on the wand and scan multiple records. The device will
                                 automatically shut off after the amount of time you indicate in the <a
-                                    href="#uisettings">Settings</a> option <strong>Auto Scanner Shutdown
+                                    href="#uisettingswindow">settings</a> option <strong>Auto Scanner Shutdown
                                     (seconds)</strong></li>
                             <li><strong>Always On:</strong> Turn on the wand and scan multiple records. To turn off the
                                 device, press the <strong>Stop</strong> button.</li>
@@ -201,7 +201,7 @@
                                 p-Chip, the wand will be turned off.</li>
                             <li><strong>Multiple:</strong> Turn on the wand and scan multiple records. The device will
                                 automatically shut off after the amount of time you indicate in the <a
-                                    href="#uisettings">Settings</a> option <strong>Auto Scanner Shutdown
+                                    href="#uisettingswindow">settings</a> option <strong>Auto Scanner Shutdown
                                     (seconds)</strong></li>
                             <li><strong>Always On:</strong> Turn on the wand and scan multiple records. To turn off the
                                 device, press the <strong>Stop</strong> button.</li>
@@ -230,7 +230,7 @@
                                 p-Chip, the wand will be turned off.</li>
                             <li><strong>Multiple:</strong> Turn on the wand and scan multiple records. The device will
                                 automatically shut off after the amount of time you indicate in the <a
-                                    href="#uisettings">Settings</a> option <strong>Auto Scanner Shutdown
+                                    href="#uisettingswindow">settings</a> option <strong>Auto Scanner Shutdown
                                     (seconds)</strong></li>
                             <li><strong>Always On:</strong> Turn on the wand and scan multiple records. To turn off the
                                 device, press the <strong>Stop</strong> button.</li>
@@ -246,7 +246,7 @@
                     </li>
                 </ol>
             </article>
-            <article>
+            <article id="uisearchwindow">
                 <h3>Search Window</h3>
                 <img class="screenshots" src="images/windowsapp/windows-search-list-blank.png" alt="Search Window">
                 <p>The <strong>Search</strong> window is where you can search for records that have been created by or
@@ -259,7 +259,7 @@
                                 p-Chip, the wand will be turned off.</li>
                             <li><strong>Multiple:</strong> Turn on the wand and scan multiple records. The device will
                                 automatically shut off after the amount of time you indicate in the <a
-                                    href="#uisettings">Settings</a> option <strong>Auto Scanner Shutdown
+                                    href="#uisettingswindow">settings</a> option <strong>Auto Scanner Shutdown
                                     (seconds)</strong></li>
                             <li><strong>Always On:</strong> Turn on the wand and scan multiple records. To turn off the
                                 device, press the <strong>Stop</strong> button.</li>
@@ -288,15 +288,15 @@
                         <li>p-Chip ID: 9 digit numeric code embedded in p-Chip microtransponder</li>
                         <li>Tag Status: Microtransponder tag operational status maintained by client administrator</li>
                         <li>External ID: Serialized inventory item or batch identifier</li>
-                        <li>Age: # of days since microtransponder tag was <strong>added or created</strong> in the
+                        <li>Age: Number of days since microtransponder tag was <strong>added or created</strong> in the
                             system</li>
-                        <li>Tests: # of tests performed on the related product</li>
+                        <li>Tests: Number of tests performed on the related product</li>
                         <li>Product Code: Product Identification Code defined by client administrator</li>
                         <li>Product Name: Product name defined by client administrator</li>
                         <li>Product Description: General description of the product. Defined by client administrator
                         </li>
                         <li>Product Status: Client defined goods status defined by client administrator</li>
-                        <li>Product Age: # of days since the current product was assigned to the microtransponder tag
+                        <li>Product Age: Number of days since the current product was assigned to the microtransponder tag
                         </li>
                         <li>Production Date (UTC): Date and time that the current product was assigned to the
                             microtransponder tag</li>
@@ -389,7 +389,7 @@
                     <li>Location</li>
                     <li>Latitude</li>
                     <li>Longitude</li>
-                    <li>License #</li>
+                    <li>License Number</li>
                     <li>Tags Created</li>
                     <li>Tags Scanned</li>
                 </ol>
@@ -420,7 +420,7 @@
                 <h3>Instructions</h3>
                 <ol>
                     <li>Connect your p-Chip wand to your device</li>
-                    <li>Select the <strong>Add Record</strong> button from the <a href="#uinavigation">navigation</a>
+                    <li>Select the <strong>Add Record</strong> button from the <a href="#navigation">navigation</a>
                         menu</li>
                     <li>If you belong to more than 1 group select the <strong>Group</strong> that should be the owner of
                         this item, otherwise your default group will automatically be entered and not editable.</li>
@@ -451,7 +451,7 @@
                     it cannot be changed.</p>
                 <h3>Instructions</h3>
                 <ol>
-                    <li>Open the <a href="#uirecorddetails">Record Details</a> window.</li>
+                    <li>Open the <a href="#uirecorddetail">Record Details</a> window.</li>
                     <li>Select the <strong>Edit</strong> button</li>
                     <li>Enter the External ID in the <strong>External ID</strong> field</li>
                     <li>Select <strong>Save</strong></li>
@@ -466,7 +466,7 @@
                 <h3>Instructions</h3>
                 <ol>
                     <li>Connect your p-Chip wand to your device</li>
-                    <li>Select the <strong>Add Product</strong> button from the <a href="#uinavigation">navigation</a>
+                    <li>Select the <strong>Add Product</strong> button from the <a href="#navigation">navigation</a>
                         menu</li>
                     <li>If you belong to more than 1 group select the <strong>Group</strong> that should be the owner of
                         this item, otherwise your default group will automatically be entered and not editable.</li>
@@ -484,7 +484,7 @@
                         the action will be canceled.</li>
                     <li>Your license must belong to an active <strong>Group</strong> in order to add products.</li>
                     <li>After adding a Product, the following information will be visible on the <a
-                            href="#uirecorddetails">Tag Details</a> page:
+                            href="#uirecorddetail">Tag Details</a> page:
                         <ul>
                             <li>Product Code</li>
                             <li>Product Name</li>
@@ -504,13 +504,13 @@
                 <h3>Instructions</h3>
                 <ol>
                     <li>Connect your p-Chip wand to your device.</li>
-                    <li>Select the <strong>Add Test</strong> button from the <a href="#uinavigation">navigation</a>
+                    <li>Select the <strong>Add Test</strong> button from the <a href="#navigation">navigation</a>
                         menu.</li>
                     <li>Select the <strong>Scanning Mode</strong>, multi-scan(recommended).</li>
                     <li>Press start.</li>
                     <li>Press the tip of the wand against the p-Chip.</li>
                     <li>Stop scanner when all p-Chips have been scanned.</li>
-                    <li>Select a row from the list of scans performed to open the <a href="#frmtest">Test Form</a>.</li>
+                    <li>Select a row from the list of scans performed to open the <a href="#frtest">test form</a>.</li>
                     <li>Select a <strong>Test</strong> from the dropdown list.</li>
                     <li>Record your input in the <strong>Test Results/Comments</strong> section of the form.</li>
                     <li>Press <strong>Save</strong>.</li>
@@ -526,12 +526,12 @@
                 <h3>Instructions</h3>
                 <ol>
                     <li>Connect your p-Chip wand to your device.</li>
-                    <li>Select the <strong>Search</strong> button from the <a href="#uinavigation">navigation</a> menu.</li>
+                    <li>Select the <strong>Search</strong> button from the <a href="#navigation">navigation</a> menu.</li>
                     <li>Select the <strong>Scanning Mode</strong>, multi-scan(recommended).</li>
                     <li>Press start.</li>
                     <li>Press the tip of the wand against the p-Chip.</li>
                     <li>Stop scanner when all p-Chips have been scanned.</li>
-                    <li>Select a row from the list of records you have searched to view the <a href="#uirecorddetails">record details</a>.</li>
+                    <li>Select a row from the list of records you have searched to view the <a href="#uirecorddetail">record details</a>.</li>
                 </ol>
                 <h4>Important!</h4>
                 <ul>
@@ -543,10 +543,10 @@
                 <p>You can <strong>report issues</strong> with p-Chip hardware and software to your client administrators using the <strong>Error Report</strong> function.</p>
                 <h3>Instructions</h3>
                 <ol>
-                    <li>Select the <strong>Error Report</strong> button from the <a href="#uinavigation">navigation</a> menu.</li>
+                    <li>Select the <strong>Error Report</strong> button from the <a href="#navigation">navigation</a> menu.</li>
                     <li>Select the <strong>Type of Issue</strong> you are experiencing.</li>
                     <li>Describe the issue you are experiencing in the <strong>Comments</strong> section.</li>
-                    <li>Press Save</li>
+                    <li>Press Send</li>
                 </ol>
             </article>
         </section>
